@@ -1,0 +1,18 @@
+<label for="uname"><b>Username </b></label>
+<input
+  type="text"
+  placeholder="Enter Username"
+  name="uname"
+  required
+  [(ngModel)]="values.username"
+/><br />
+<br />
+<label for="pwd"><b>Password</b></label>
+<input
+  type="password"
+  placeholder="Password"
+  name="pass"
+  required
+  [(ngModel)]="values.password"
+/><br />
+<button type="Submit" placeholder="Submit" (click)="Login()">Submit</button>
